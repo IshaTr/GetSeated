@@ -1,0 +1,199 @@
+
+body {
+	margin: 0px;
+	font-size: 20px;
+	font-family: 'Raleway', sans-serif;
+	width:100%;
+	height: 100%;
+}
+
+.landing-screen {
+	background-image: url("../getseated/img/login.jpg");
+	background-size: cover;
+	background-position: center center;
+	text-align: center;
+	max-width: 100%;
+	min-height: 300px;
+	padding: 60px 15px;
+}
+
+.landing-screen span {
+	font-size: 30px;
+}
+
+header {
+	text-align: center;
+	padding-top: 50px;
+	color: #fff;
+}
+ .envelop {
+  	color: #5D4037;
+ 	background-color: #FFE082;
+ 	border: 50px solid #FFF9C4;
+ 	margin: 0px;
+ }
+
+ .envelop form {
+ 	padding: 5px;
+ 	min-height: 200px;
+ 	max-width: 500px; 
+ 	margin: 0 auto;
+ }
+
+.envelop p {
+	width: 100%;
+}
+
+.envelop span {
+ 	color: #fff;
+ }
+
+.slogan-quote {
+	font-size: 30px;
+	text-align: center;
+}
+
+input[type="text"] {
+	width: 100%;
+	height: 30px;
+	border: 1px solid #fafafa;
+}
+
+input[type="email"] {
+	width: 80%;
+	height: 30px;
+	border: 1px solid #fafafa;
+	float: left;
+}
+
+button {
+	color: #fff;
+	width: 18%;
+	float:right;
+	height: 35px;
+	background-color: #5D4037;
+	border: 0px;
+	font-size: 20px;
+}
+form label {
+	text-align: left;
+}
+
+.icons a{
+	color: #fff;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.icon {
+	color:#fff;
+}
+
+.icon-location {
+	color: #fff;
+	margin: 10px;
+	margin-top: 40px;
+	font-size: 40px;
+}
+
+.icon-share {
+	color: #fff;
+	margin: 10px;
+	margin-top: 40px;
+	font-size: 40px;
+}
+
+.icon-article-alt {
+	color: #fff;
+	margin: 10px;
+	margin-top: 40px;
+	font-size:40px;
+}
+
+.icon-facebook {
+	color: #5D4037;
+	margin: 5px;
+	margin-top: 40px;
+	font-size:30px;
+	margin: 80px 0;
+}
+
+.icon-whatsapp {
+	color: #5D4037;
+	margin: 5px;
+	margin-top: 40px;
+	font-size:30px;
+	margin:80px 0;
+}
+
+.icon-gplus {
+	color: #5D4037;
+	margin: 5px;
+	margin-top: 40px;
+	font-size:30px;
+	margin: 80px 0;
+}
+
+.icon {
+	width: 28%;
+	display: inline-block;
+}
+
+.icon-2 {
+	width: 20%;
+	display: inline-block;
+	margin-top: 40px;
+	margin-bottom: 25px;
+	max-width: 500px;
+}
+
+.icons-2 {
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+.pull-left { float: left; }
+
+.pull-right { float: right; }
+
+.text-center {
+	text-align: center;
+}
+
+.seperator {
+	position: relative;
+	height: 30px;
+}
+
+.seperator::before {
+	content: ' ';
+	width: 100%;
+	height: 1px;
+	background-color: #999;
+	display: block;
+	position: absolute;
+	top: 30px;
+}
+
+.seperator span {
+	color: #5D4037;
+	display: inline-block;
+	width: 80px;
+	height: 20px;
+	position: absolute;
+	top: 20px;
+	left: calc(50% - 40px);
+	background-color: #FFE082;
+}
